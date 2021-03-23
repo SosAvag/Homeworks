@@ -1,0 +1,26 @@
+{
+  "name": "Homeworks",
+  "version": "1.0.0",
+  "description": "Here we can find all my homeworks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SosAvag/Homeworks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SosAvag/Homeworks/issues"
+  },
+  "homepage": "https://github.com/SosAvag/Homeworks#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.19.0",
+    "@typescript-eslint/parser": "^4.19.0",
+    "eslint": "^7.22.0",
+    "eslint-plugin-react": "^7.23.0"
+  }
+}
