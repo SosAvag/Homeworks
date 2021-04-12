@@ -8,8 +8,7 @@
   },
   "scripts": {
     "test": "protractor ./conf/conf.js",
-    "webdriver-update": "webdriver-manager update",
-    "pretest2": "webdriver-manager update"
+    "pretest": "webdriver-manager update"
   },
   "keywords": [],
   "author": "",

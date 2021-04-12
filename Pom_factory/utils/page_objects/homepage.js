@@ -1,9 +1,9 @@
-class homepage {
+class Homepage {
     constructor() {
         this.sign_out_button = element(by.xpath("//yt-formatted-string[.='Sign out']"));
         this.logo_button = element(by.xpath("//yt-icon[@id='logo-icon']"));
         this.avatarImg=element(by.xpath("//img[@alt='Avatar image']"));
-        this.dark = element(by.xpath("//html[@dark='true']"));
+        this.dark = element(by.css("//html[@dark='true']"));
         this.first_element = element(by.xpath("(//ytd-rich-item-renderer[@class='style-scope ytd-rich-grid-renderer'])[1]"));
         this.second_element = element(by.xpath("(//ytd-rich-item-renderer[@class='style-scope ytd-rich-grid-renderer'])[2]"));
         this.first_video_watch_later = element(by.xpath('(//yt-icon[@id="icon" and @class="style-scope ytd-thumbnail-overlay-toggle-button-renderer"])[1]'));
@@ -44,4 +44,4 @@ class homepage {
     }      
 }
 
-module.exports = new homepage();
+module.exports = Homepage;
