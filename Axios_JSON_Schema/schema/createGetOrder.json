@@ -1,0 +1,14 @@
+{
+    "description": "Schema for create and get order response",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "number", 
+            "required": true
+        },
+        "shipDate":{
+            "type": "string"
+        }
+        
+    }
+}
